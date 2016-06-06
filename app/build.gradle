@@ -10,10 +10,10 @@ android {
     buildToolsVersion '23.0.3'
 
     defaultConfig {
-        applicationId 'uk.co.ribot.androidboilerplate'
+        applicationId 'com.InfinityTides.petfinder'
         minSdkVersion 16
         targetSdkVersion 23
-        testInstrumentationRunner "${applicationId}.runner.RxAndroidJUnitRunner"
+        testInstrumentationRunner "com.InfinityTides.petfinder.runner.RxAndroidJUnitRunner"
         versionCode 1000
         // Major -> Millions, Minor -> Thousands, Bugfix -> Hundreds. E.g 1.3.72 == 1,003,072
         versionName '0.1.0'
